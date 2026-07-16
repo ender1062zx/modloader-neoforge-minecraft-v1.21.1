@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="MIT"
+
+[[mods]]
+modId="benjamin_weapons"
+version="1.0.0"
+displayName="Benjamin Weapons"
+description='''
+Agrega armas mágicas personalizadas, comenzando por la Espada de Aether.
+'''
+authors="Benjamin"
+
+[[dependencies.benjamin_weapons]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.benjamin_weapons]]
+modId="neoforge"
+mandatory=true
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
